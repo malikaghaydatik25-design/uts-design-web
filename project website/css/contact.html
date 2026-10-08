@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>About Me - Malika Ghayda</title>
+    <link rel="icon" type="image/png" href="/image/tomato_hello_kity_icon_-removebg-preview.png">
+    <style>
+        @font-face {
+            font-family: 'AylaHandwritten';
+            src: url('AylaHandwritten-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: 'Gaegu-Bold';
+            src: url('Gaegu-Bold.ttf');
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100vh;
+            width: 100%;
+            overflow: hidden; 
+        }
+
+        body {
+            font-family: 'Gaegu-Bold', sans-serif;          
+            background-image: url('/imagE/Group\ 48096254.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #C23B22;        
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            font-family: 'AylaHandwritten', sans-serif;
+            background-color: #FDEFCF;    
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .navbar td {
+            padding: 35px 25px; 
+        }
+
+        .navbar h1 {
+            font-size: 32px; 
+            margin: 0;
+            line-height: 1;
+        }
+
+        .nav-link {
+            font-family: 'Gaegu-Bold', sans-serif;
+            color: #C23B22;              
+            text-decoration: none; 
+            font-size: 22px; 
+            font-weight: bold;
+            margin-left: 35px;   
+            position: relative; 
+            display: inline-block;
+            padding-bottom: 5px;       
+        }   
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0%;           
+            height: 3px;        
+            bottom: 0;
+            left: 0;
+            background-color: #C23B22; 
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .welcome-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-family: 'AylaHandwritten', sans-serif;
+        }
+      </style>
+
+</head>
+<body>
+
+    <!-- NAVIGASI UTAMA -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="navbar">
+    <tr>
+        <td align="left">
+            <h1>Ghayda Made This</h1>
+        </td>
+        <td align="right">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="aboutme.html" class="nav-link">About</a>
+            <a href="cv.html" class="nav-link">CV</a>
+            <a href="project.html" class="nav-link">Projects</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </td>
+    </tr>
+</table>
+
+    <!-- KONTAK UTAMA -->
+<main class="welcome-container">
+    <h1 align="center">My Contact</h1>
+
+    <h3 align="center">
+        <p>Email: <a href='mailto:malikaghayda@gmail.com'>malikaghayda@gmail.com</a></p>
+    </h3>
+    
+    <h3 align="center">
+        <p>Phone: <a href='tel:+6288214071844'>+62 882-1407-1844</a></p>
+    </h3>
+    
+    <h3 align="center">
+        <p>Instagram: <a href='https://www.instagram.com/ghaydaily/' target='_blank'>@ghaydaily</a></p>
+    </h3>
+    
+    <h3 align="center">
+        <p>LinkedIn: <a href='https://www.linkedin.com/in/malika-ghayda-3b0a4b1b6/' target='_blank'>Malika Ghayda</a></p>
+    </h3>
+</main>
+
+<br><br><br><br>
+
+<footer>
+        <p align="center">Copyright &copy; 2026 Malika Ghayda.</p>
+</footer>
+
+</body>
+</html>

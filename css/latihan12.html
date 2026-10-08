@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Static Positioning</title>
+    <style>
+        div.static-box {
+            position: static;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            /* Properti offset di bawah ini tidak akan berdampak */
+            top: 50px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: static;</h2>
+    <div class="static-box">
+        Elemen ini diposisikan secara statis. Pengaturan top dan left tidak memengaruhi posisinya.
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Relative Positioning</title>
+    <style>
+        div.relative-box {
+            position: relative;
+            left: 30px;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: relative;</h2>
+    <div class="relative-box">
+        Elemen ini diposisikan relatif terhadap posisi normalnya. Pergeseran left: 30px mendorong elemen ke kanan.
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Fixed Positioning</title>
+    <style>
+        div.fixed-box {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            border: 3px solid #73AD21;
+            background-color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: fixed;</h2>
+    <div class="fixed-box">
+        Elemen ini selalu menempel di sudut kanan bawah layar peramban.
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Absolute Positioning</title>
+    <style>
+        div.container-relative {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 3px solid #73AD21;
+        }
+        div.absolute-box {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            border: 3px solid #73AD21;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: absolute;</h2>
+    <div class="container-relative">
+        Elemen kontainer ini memiliki position: relative;
+        <div class="absolute-box">Elemen ini diposisikan absolut relatif terhadap induknya.</div>
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Sticky Positioning</title>
+    <style>
+        div.sticky-header {
+            position: sticky;
+            top: 0;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Gulir halaman ke bawah untuk melihat efek sticky.</p>
+    <div class="sticky-header">Saya akan menempel di bagian atas saat digulir!</div>
+    <div style="padding-bottom:2000px">
+        <p>Konten panjang di dalam halaman untuk memungkinkan pengguliran...</p>
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Z-Index</title>
+    <style>
+        .box-base {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            color: white;
+        }
+        .box-bottom {
+            background-color: red;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+        }
+        .box-top {
+            background-color: blue;
+            top: 50px;
+            left: 50px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-base box-bottom">Kotak Merah (z-index: 1)</div>
+    <div class="box-base box-top">Kotak Biru (z-index: 2)</div>
+</body>
+</html> -->

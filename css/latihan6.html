@@ -1,0 +1,189 @@
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Pengenalan Background</title>
+    <style>
+        /* Mengatur latar belakang dasar elemen header */
+        header {
+            background-color: violet;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>Belajar Background di CSS</h1>
+    </header>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Background Warna dan Gradasi</title>
+    <style>
+        header {
+            /* Warna cadangan (fallback) jika gradasi tidak didukung */
+            background: rgb(34, 193, 195);
+
+            /* Warna gradasi linier dari sian ke merah muda */
+            background: linier-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(240, 45, 253, 1) 100%);
+
+            color: #ffffff;
+            padding: 25px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar Background Warna Gradasi</h1>
+    </header>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Background Image</title>
+    <style>
+        body {
+            /* Memuat file gambar latar belakang dari direktori lokal */
+            background-image: url('background.jpg');
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            /* Memberikan lapisan latar putih transparan 50% di atas gambar */
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar Background Gambar di CSS</h1>
+    </header>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Background Repeat</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            /* Mencegah gambar diulang saat layar diperbesar/zoom out */
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pengaturan Pengulangan Gambar Latar</h2>
+    <p>Aturan background-repeat: no-repeat memastikan gambar latar hanya muncul satu kali tanpa diulang berantai.</p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Background Size</title>
+    <style>
+    body {
+        background-image: url('background.jpg');
+        background-repeat: no-repeat;
+
+        /* Membuat gambar latar menutupi seluruh area layar secara proposional */
+        background-size: cover;
+        fonf-family: Arial, sans-serif;
+        color: #ffffff;
+        padding: 20px;
+    </style>
+</head>
+<body>
+    <h2>Pengaturan Ukuran Background</h2>
+    <p>Nilai background-size: cover membuat latar belakang gambar menyesuaikan dimensi layar penuh secara responsif.</p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Background SVG</title>
+    <style>
+        body {
+            /* Menggunakan file vektor wave.svg sebagai latar belakang */
+            background-image: url('wave.svg');
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.6);
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar Background Gambar Vektor SVG</h1>
+    </header>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Background Blur (Glassmorphism)</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        /* Kartu dengan efek kaca buram (Glassmorphism) */
+        article {
+            background-color: rgba(255, 255, 255, 0.5);
+
+            /* Menerapkan efek blur 10px pada latar di balik elemen */
+            backdrop-filter: blur(10px);
+
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h2>Artikel dengan Efek Background Blur</h2>
+        <p>Properti backdrop-filter: blur(10px) memberikan efek buram pada latar belakang di balik komponen article, menciptakan tampilan visual menyerupai kaca (glassmorphism) yang modern.</p>
+    </article>
+</body>
+</html> -->

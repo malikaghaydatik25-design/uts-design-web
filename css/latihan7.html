@@ -1,0 +1,293 @@
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Align</title>
+    <style>
+        header {
+            text-align: center;
+            background: #2c3e50;
+            color: #ffffff;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+        }
+
+        .text-left{
+            text-align: left;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        article {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar CSS Text Align</h1>
+    </header>
+
+    <article>
+        <h3>Rata Kiri (Left):</h3>
+        <p class="text-left">Paragraf ini diatur rata kiri. Tepi kiri teks akan tersusun lurus rapi, sedangkan tepi kanan menyesuaikan panjang kalimat.</p>
+        <h3>Rata Tengah (Center):</h3>
+        <p class="text-center">Paragraf ini diatur rata tengah. Setiap baris teks ditempatkan tepat di tengah-tengah lebar area kontainer.</p>
+        <h3>Rata Kanan (Right):</h3>
+        <p class="text-right">Paragraf ini diatur rata kanan. Tepi kanan teks tersusun rapi, cocok untuk penekanan atau layout tertentu.</p>
+        <h3>Rata Kiri Kanan (Justify):</h3>
+        <p class="text-justify">Paragraf ini diatur rata kiri dan kanan. Spasi antar kata disesuaikan secara otomatis agar kedua tepi kiri dan kanan sejajar lurus, ideal untuk format kolom artikel majalah atay koran.</p>
+    </article>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Direction and Align</title>
+    <style>
+        header {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            direction: rtl; /* Arah pembacaan dari kanan ke kiri */
+            font-family: 'Traditional Arabic', Tahoma, sans-serif;
+            padding: 20px;
+        }
+
+        .text-start {
+            text-align: start; /* Rata di awal pembacaan (sebelah kanan) */
+        }
+
+        .text-end {
+            text-align: end; /* Rata di akhir pembacaan (sebelah kiri) */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar CSS Text Direction</h1>
+    </header>
+
+    <article>
+        <h3>Awal Arah pembacaan (Start - Rata Kanan):</h3>
+        <p class="text-start">
+            لنننققنى عض عههاى
+        </p>
+
+        <h3>Akhir Arab Pembacaan (End - Rata Kiri):</h3>
+        <p class="text-end">
+           لنننققنى عض عههاى
+        </p>
+    </article>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Decoration</title>
+    <style>
+        h1 {
+            text-decoration: underline;
+            font-family: Arial, sans-serif;
+            color: #2c3e50;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .upperline {
+            text-decoration: overline dashed violet; /* Garis atas putus-putus berwarna ungu */
+        }
+
+        .underline-wavy {
+            text-decoration: underline wavy green; /* Garis bawah bergelombang berwarna hijau */
+        }
+
+        .strike-red {
+            text-decoration: line-through red; /* Garis coret berwarna merah */
+        }
+    </style>
+</head>
+<body>
+    <h1>Contoh Text Decoration Modern</h1>
+
+    <p>
+        Ini adalah contoh <span class="underline-wavy">teks dengan garis bawah bergelombang hijau</span>.<br>
+        Ini adalah teks normal tanpa hiasan.<br>
+        Ini adalah teks dengan <span class="strike-red">harga yang dicoret merah</span>.<br>
+        Ini adalah <span class="upperline">teks dengan garis atas putus-putus berwarna violet</span>.
+    </p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Transform</title>
+    <style>
+        h1 {
+            text-transform: capitalize; /* Kapitalisasi huruf awal setiap kata */
+            font-family: Arial, sans-serif;
+            color: #2980b9;
+        }
+
+        .upper {
+            text-transform: uppercase; /* Mengubah menjadi kapital penuh */
+            font-weight: bold;
+        }
+
+        .lower {
+            text-transform: lowercase; /* Mengubah menjadi huruf kecil penuh */
+        }
+
+        p{
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Latihan teks transform di CSS</h1>
+
+    <p>
+        Pesan ini dipersonalisasi: <span class="upper">hello world</span> - kalimat ini ditulis kecil di HTML namun tampil kapital.<br>
+        <span class="lower">TEKS INI SEMULA DITULIS DENGAN HURUF KAPITAL BESAR, NAMUN CSS MENGUBAHNYA MENJADI HURUF KECIL KESELURUHAN.</span>
+    </p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Spacing</title>
+    <style>
+        h1 {
+            letter-spacing: -1px; /* Merapatkan jarak antar huruf */
+            word-spacing: 4px; /* Merenggangkan jarak antar kata */
+
+            font-family: Arial, sans-serif;
+            color: #2c3e50;
+        }
+
+        .small-caps-spacing {
+            font-size: 12px;
+            letter-spacing: 2px; /* Jarak huruf renggang untuk estetika teks kecil */
+            text-transform: uppercase;
+            color: #7f8c8d;
+        }
+
+        .indent-paragraph {
+            text-indent: 2em; /* Baris pertama masuk ke dalam sejauh 2em (32px) */
+            line-height: 1.6; /* Jarak antar baris yang nyaman dibaca */
+            font-family: Georgia, serif;
+        }
+
+        .nowrap-demo {
+            white-space: break-spaces; /* Mempertahankan spasi bawaan HTML */
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Judul dengan Pengaturan Spasi Huruf dan Kata</h1>
+    <p class="small-caps-spacing">Subjudul Kecil dengan Renggang Karakter</p>
+
+    <p class="indent-paragraph">
+        Ini adalah contoh paragraf yang menerapkan <i>text-indent: 2em</i>. Baris paling pertama pada paragraf ini akan menjorok masuk ke dalam sejauh 2em (setara 32px), menciptakan tampilan khas penulisan buku atau artikel formal. Penggunaan <i>line height: 1.6</i> memastikan jarak antarbaris memiliki cukup ruang bernapas agar pembaca tidak cepat lelah.
+    </p>
+
+    <p class="nowrap-demo">
+        Paragraf ini menggunakan white-space: break-spaces, sehingga spasi berganda dan perpindahan baris di HTML akan ditampilkan sesuai bentuk aslinya.
+    </p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Overflow</title>
+    <style>
+        .overflow-box {
+            width: 320px;
+            white-space: nowrap; /* Memaksa teks tetap dalam 1 baris */
+            overflow: hidden; /* Menyembunyikan teks di luar kotak */
+            text-overflow: ellipsis; /* Menambahkan titik-titik tiga (...) */
+
+            background-color: #eef9bf;
+            border: 1px solid #c7ecee;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pengaturan Teks Melimpah (Text Overflow Ellipsis</h2>
+
+    <p class="overflow-box">
+        Ini adalah contoh paragraf yang memiliki kalimat sangat panjang melebihi lebar area kontainer 320px. Teks yang meluap akan terpotong secara rapi dan diakhiri dengan simbol ellipsis tiga titik.
+    </p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrasi Text Shadow</title>
+    <style>
+        .shadow-basic {
+            color: #2ecc71;
+            font-size: 32px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            /* Offset X: 2px, Offset Y: 2px; Blur: 4px; Warna: Hitam Transparan 50% */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .shadow-glow {
+            color: #ffffff;
+            background-color: #2c3e50;
+            padding: 15px;
+            font-size: 28px;
+            font-family: Arial, sans-serif;
+            /* Efek pendaran neon (glow effect) */
+            text-shadow: 0 0 8px #00ffff, 0 0 15px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <h2>Penggunaan Efek Bayangan Teks (Text Shadow)</h2>
+
+    <p class="shadow-basic">Teks dengan Bayangan Halus (Soft Shadow)</p>
+
+    <p class="shadow-glow">Teks Efek Neon Glowing Shadow</p>
+</body>
+</html> -->
